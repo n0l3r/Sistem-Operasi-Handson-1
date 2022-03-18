@@ -1,7 +1,7 @@
 # Cek apakah script ini dijalankan dengan argument
 if [ $# -eq 0 ]; then
     echo "Tidak ada argument yang diberikan." # Jika tidak ada argument, maka tampilkan pesan ini
-    exit 1
+    exit 0
 fi
 
 # Cek apakah file ada di directory atau tidak
